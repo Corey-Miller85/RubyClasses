@@ -10,8 +10,8 @@ puts person.full_name
 puts person.initial_and_last_name
 
 
-puts "___________"
+puts "--------------------------------------"
 
-# pig = Animal.new
-# pig.noise = "Oink!"
-# puts pig.noise
+pig = Animal.new
+pig.noise = "Oink!"
+puts pig.noise
