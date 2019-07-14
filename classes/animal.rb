@@ -1,10 +1,6 @@
 class Animal
-  def make_noise
-    @noise
-  end
+  attr_reader :noise
+  attr_writer :noise
 
-  def set_noise
-    @noise = "Oink!"
-  end
 
 end
