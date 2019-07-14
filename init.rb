@@ -3,6 +3,15 @@
 require_relative "classes/person"
 require_relative "classes/animal"
 
-pig = Animal.new
-pig.noise = "Oink!"
-puts pig.noise
+person = Person.new
+person.first_name = "Bob"
+person.last_name = "Smith"
+puts person.full_name
+puts person.initial_and_last_name
+
+
+puts "___________"
+
+# pig = Animal.new
+# pig.noise = "Oink!"
+# puts pig.noise
