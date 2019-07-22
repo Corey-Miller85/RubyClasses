@@ -30,3 +30,18 @@ puts "-" * 16
 puts
 
 puts Animal.total_animals
+
+puts 
+puts "-" * 16
+puts
+
+Animal.species = ['cat','mouse','moose']
+
+Animal.species.each do |type|
+    puts type
+end
+
+
+puts 
+puts "-" * 16
+puts
