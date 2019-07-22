@@ -1,5 +1,3 @@
-require_relative "/classes/dice.rb"
-
 class DiceSet
     def initialize
        @dice_array = [Dice.new, Dice.new]
@@ -11,4 +9,5 @@ class DiceSet
 
     def display
         @dice_array.map {|d| "[#{d.value}]" }.join(' - ')
+    end
 end
